@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+
+/*configurar toda la pagina*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+/*final configurar pagina*/
+
+/*configuraciones generales*/
+a{
+    text-decoration: none;
+    color: white;
+}
+
+ul{
+    list-style: none;
+}
+
+body  html{
+    overflow-x: hidden;
+}
+
+section{
+    width: 80%;
+    margin: 80px auto;
+}
+/*final de configuraciones generales*/
+
+/*Inicio de navbar*/
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.nav-links{ 
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li{
+    margin: 0 30px;
+    padding: 10px 5px;
+    background: #501655;
+    border-radius: 30px;
+    color: whitesmoke;
+    
+}
+
+.menu-btn{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
+}
+
+
+ /*final de navbar*/ 
+
+/*header y titulos*/ 
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./Imagenes/wallpaper/1010687\ \(1\).jpg);
+    background-position: bottom;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-content {
+    margin-bottom: 150px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+} 
+
+.header-content h2 {
+    font-size: 4vmin;
+}
+
+.line {
+    width: 150px;
+    height: 4px;
+    background: #000000;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.header-content h1 {
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.ctnm {
+    padding: 10px 5px;
+    background: #501655;
+    border-radius: 30px;
+    color: whitesmoke;
+}
+
+/*seguna parte de la pagina*/
+.title{
+   text-align: center;
+   font-size: 4vmin;
+   color: rgb(102, 31, 113)
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.row .col{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.events .row{
+    margin-top: 50px;
+}
+
+h4{
+    font-size: 3vmin;
+    color: #484872;
+    margin: 20px auto;
+}
+
+p{
+    color: #000000;
+    padding: 0px 40px;
+}
+
+.ct2{
+    padding: 15px 5px;
+    padding-left: 5px;
+    margin: 20px auto;
+    color: white;
+    background: #501655;
+    border-radius: 30px;
+}
+
+.events .ct2 {
+    margin-top: 20px;
+}
+
+.img{
+    height: 500px;
+    width: 500px;
+    padding-left: 100px;
+}
+/*Final segunda parte de la pagina*/
+
+/*Inicio de la tercera parte de la pagina*/
+.argumento {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./Imagenes/wallpaper/1022141.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.line {
+    background-color: rgb(25, 121, 90);
+}
+
+.argumento-content {
+    width: 60px;
+    padding: 50px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.argumento-content h1 {
+    font-size: 7vmin;
+    padding-left: 500px;
+}
+
+.argumento-content .line {
+    margin-bottom: 50px;
+    margin-left: 170px;
+}
+
+.argumento-content p{
+    color: rgb(255, 255, 255);
+    padding-left: 500px;
+    font-size: 17px;
+}
+
+.ctn3{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 450px;
+    background: rgb(25, 121, 90);
+    border-radius: 30px;
+    color: whitesmoke;
+}
+
+/*final de la tercera parte de la pagina*/
+
+/*cuarta parte de la pagina*/
+.tours{
+    margin-left: 250px;
+}
+
+.content-col{
+    width: 40%;
+}
+
+.tours .image-galerry{
+    display: flexbox;
+}
+
+.tours .row .col{
+    width: 50%;
+}
+
+.content-col h1{
+    font-size: 7vmin;
+    color:#484872;
+}
+
+div > div > img{
+    width: 250px;
+    padding: 10px;
+}
+
+.content-col line{
+    border-left: 50px;
+}
+
+.content-col p{
+    padding: 0;
+    margin: 30px auto;
+}
+
+.ctn4{
+    padding: 15px 5px;
+    padding-left: 5px;
+    margin: 20px auto;
+    background: #484872;
+    border-radius: 30px;
+    color: whitesmoke;
+}
+/*final cuarta parte */
+
+/*footer*/
+.footer{
+    width: 100%;
+    height: 200px;
+    padding: 20px 80px;
+    margin: 0;
+    background: #630c6c;
+    text-align: center;
+}
+
+.footer p {
+    color: whitesmoke;
+}
+/*final footer*/
